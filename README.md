@@ -1,83 +1,98 @@
-# Expense Tracker Android
+💸 Expense Tracker App
+An intuitive and efficient Android application that helps users monitor and manage their daily expenses. Whether you're budgeting for a trip, tracking monthly bills, or just want visibility into your spending habits, this app makes it simple and visual.
 
-Welcome to the Expense Tracker Android app! This project is designed to help users keep track of their daily expenses with ease. The app allows users to add, view, and analyze their expenses using intuitive stats and charts. It is developed using modern Android development practices, including Jetpack Compose, Room Database, Dagger Hilt for dependency injection, and the MVVM architecture.
+Built using Kotlin, Jetpack Compose, and Room, this project demonstrates modern Android development practices and a clean architecture.
 
-## Features
+🧾 About the Project
+This Expense Tracker app allows users to:
 
-- **Add Expense:** Easily add your daily expenses with a few taps.
-- **Track Expenses:** View a list of all your expenses, organized by date and category.
-- **Analyze with Stats:** Get insights into your spending habits with detailed stats and charts.
-  
-## Technologies Used
+Add and categorize daily expenses
 
-- **Jetpack Compose:** A modern toolkit for building native Android UI.
-- **Room Database:** A robust database layer on top of SQLite for managing local data.
-- **Dagger Hilt:** A dependency injection library for Android that reduces the boilerplate of manual dependency injection.
-- **MVVM Architecture:** Model-View-ViewModel architecture for separating the UI, business logic, and data handling in the app.
+View detailed lists of recorded transactions
 
-## YouTube Tutorial Series
+Monitor expense trends and summaries
 
-This project is part of a series of tutorials available on my YouTube channel. Follow along with the videos to build this app from scratch!
+Maintain a persistent local record using Room Database
 
-1. **[Part 1: Project Setup and Basics](https://youtu.be/LfHkAUzup5E)**
-2. **[Part 2: Implementing Room Database](https://youtu.be/dPeSoNWVu-Y)**
-3. **[Part 3: Adding and Displaying Expenses](https://youtu.be/mq8lekRbF4I)**
-4. **[Part 4: Tracking Expenses with Stats](https://youtu.be/xolI_2svC6w)**
+Navigate across screens using a clean, single-activity architecture with Jetpack Compose
 
-Be sure to check out the videos for a detailed guide on how to implement each feature.
+The architecture follows the MVVM pattern, ensuring a scalable, testable, and maintainable codebase. Navigation is handled using Compose’s native navigation library, and all data operations are performed asynchronously using Kotlin Coroutines and Flow.
 
-## Screenshots
+This project can serve as a reference for:
 
-Here are some screenshots of the Expense Tracker app in action:
+Beginners learning Android development with Kotlin and Compose
 
-| Home Screen | Add Expense | Stats |
-|-------------|-------------|-------------|
-| ![Home Screen](screenshots/Screenshot_1724273822.png) | ![Add Expense](screenshots/Screenshot_1724273829.png) | ![Stats](screenshots/Screenshot_1724273956.png) |
+Developers looking for a solid base template for scalable apps
 
-## Getting Started
+Open-source contributions in mobile finance tools
 
-### Prerequisites
+✨ Features
+✅ Add, update, and delete expense entries
 
-- Android Studio Bumblebee or later
-- Java 11 or later
-- Android SDK 21 or later
+📅 Filter expenses by date and category
 
-### Installation
+📈 Visual summaries and categorized spending views
 
-1. Clone the repository:
+🗂️ Persistent data storage using Room database
 
-    ```bash
-    git clone https://github.com/yourusername/ExpenseTrackerAndroid.git
-    ```
+🧭 Declarative navigation with Compose
 
-2. Open the project in Android Studio.
+⚙️ MVVM architecture using ViewModels and UI state flows
 
-3. Sync the project with Gradle files.
+📸 Screenshots
 
-4. Run the app on an emulator or physical device.
 
-### Usage
 
-- **Adding an Expense:**
-  - Tap on the "Add Expense" button.
-  - Enter the amount, select a category, and add any notes if necessary.
-  - Save the expense to track it.
+🛠️ Gett![Screenshot 2025-04-29 134527](https://github.com/user-attachments/assets/9fd49697-6d0b-4ff1-b920-09175aad5f1c)![Screenshot 2025-04-29 134548](https://github.com/user-attachments/assets/bdc8c98c-2e05-436d-ab98-949f39d05ecb)
+![Screenshot 2025-04-29 134608](https://github.com/user-attachments/assets/a06fc0fc-d0ac-4afb-8074-f8d772a926e9)
+![Screenshot 2025-04-29 134654](https://github.com/user-attachments/assets/6a4d6fc4-d0ac-46f4-8a57-9eab19adb122)
 
-- **Viewing Expenses:**
-  - Navigate to the "Expense List" screen to view all your recorded expenses.
-  - Tap on any expense to edit or delete it.
 
-- **Tracking with Stats:**
-  - Go to the "Stats" section to view charts and summaries of your spending habits over time.
+✅ Prerequisites
+Android Studio Hedgehog or later
 
-## Contributions
+Kotlin 1.9+
 
-Contributions are welcome! Feel free to open issues or submit pull requests to help improve this project.
+Gradle 8.0+
 
-## Contact
+Minimum SDK 21 (Android 5.0)
 
-For any queries or suggestions, feel free to contact me at [furqanullah717@gmail.com](mailto:furqanullah717@gmail.com).
+📦 Installation
+Clone the repository:
 
----
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/expense-tracker-android.git
+Open in Android Studio:
 
-**YouTube Channel:** [CodeWithFK](https://www.youtube.com/@codewithfk)
+Go to File > Open and select the project folder.
+
+Build the project:
+
+Let Gradle sync and resolve dependencies.
+
+Run the app:
+
+Use an emulator or a connected device to install the app.
+
+🧱 Project Structure
+bash
+Copy
+Edit
+app/
+├── data/                # Room DB setup, DAO, and Entity models
+├── base/                # Base ViewModel and navigation event classes
+├── ui/                  # Composable screens and UI navigation
+├── MainActivity.kt      # App entry point and navigation host
+├── ExpenseTrackerApp.kt # Application class and app theme setup
+🧪 Testing
+Run the following commands for unit and UI tests:
+
+bash
+Copy
+Edit
+./gradlew test
+./gradlew connectedAndroidTest
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
