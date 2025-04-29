@@ -43,8 +43,12 @@ Open-source contributions in mobile finance tools
 
 
 
-🛠️ Gett![Screenshot 2025-04-29 134527](https://github.com/user-attachments/assets/9fd49697-6d0b-4ff1-b920-09175aad5f1c)![Screenshot 2025-04-29 134548](https://github.com/user-attachments/assets/bdc8c98c-2e05-436d-ab98-949f39d05ecb)
+![Screenshot 2025-04-29 134527](https://github.com/user-attachments/assets/9fd49697-6d0b-4ff1-b920-09175aad5f1c)
+
+![Screenshot 2025-04-29 134548](https://github.com/user-attachments/assets/bdc8c98c-2e05-436d-ab98-949f39d05ecb)
+
 ![Screenshot 2025-04-29 134608](https://github.com/user-attachments/assets/a06fc0fc-d0ac-4afb-8074-f8d772a926e9)
+
 ![Screenshot 2025-04-29 134654](https://github.com/user-attachments/assets/6a4d6fc4-d0ac-46f4-8a57-9eab19adb122)
 
 
