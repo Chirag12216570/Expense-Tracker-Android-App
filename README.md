@@ -1,102 +1,118 @@
-💸 Expense Tracker App
-An intuitive and efficient Android application that helps users monitor and manage their daily expenses. Whether you're budgeting for a trip, tracking monthly bills, or just want visibility into your spending habits, this app makes it simple and visual.
+# 💸 **Expense Tracker App**
 
-Built using Kotlin, Jetpack Compose, and Room, this project demonstrates modern Android development practices and a clean architecture.
+An intuitive and efficient Android application that helps users **monitor and manage daily expenses**. Whether you're budgeting for a trip, tracking monthly bills, or just want visibility into your spending habits, this app makes it simple and visual.
 
-🧾 About the Project
+Built using **Kotlin**, **Jetpack Compose**, and **Room**, this project demonstrates **modern Android development practices** and clean architecture.
+
+---
+
+## 🧾 **About the Project**
+
 This Expense Tracker app allows users to:
 
-Add and categorize daily expenses
+- 📝 Add and categorize daily expenses
+- 📜 View detailed transaction history
+- 📊 Monitor expense trends and summaries
+- 💾 Store data locally using Room Database
+- 🧭 Navigate with Jetpack Compose's native tools
 
-View detailed lists of recorded transactions
+It follows the **MVVM architecture**, uses **Kotlin Coroutines** and **Flow** for asynchronous operations, and serves as a reference for:
 
-Monitor expense trends and summaries
+- Learning Android development with Jetpack Compose
+- Implementing scalable and testable app structure
+- Contributing to open-source mobile finance tools
 
-Maintain a persistent local record using Room Database
+---
 
-Navigate across screens using a clean, single-activity architecture with Jetpack Compose
+## ✨ **Features**
 
-The architecture follows the MVVM pattern, ensuring a scalable, testable, and maintainable codebase. Navigation is handled using Compose’s native navigation library, and all data operations are performed asynchronously using Kotlin Coroutines and Flow.
+- ✅ Add, update, and delete expense entries
+- 📅 Filter by date and category
+- 📈 Visualize total and categorized spending
+- 💽 Persist data with Room DB
+- 🎯 Compose-based navigation
+- 📐 Clean MVVM architecture with ViewModels
 
-This project can serve as a reference for:
+---
 
-Beginners learning Android development with Kotlin and Compose
-
-Developers looking for a solid base template for scalable apps
-
-Open-source contributions in mobile finance tools
-
-✨ Features
-✅ Add, update, and delete expense entries
-
-📅 Filter expenses by date and category
-
-📈 Visual summaries and categorized spending views
-
-🗂️ Persistent data storage using Room database
-
-🧭 Declarative navigation with Compose
-
-⚙️ MVVM architecture using ViewModels and UI state flows
-
-📸 Screenshots
+## 📸 **Screenshots**
 
 
 
-![Screenshot 2025-04-29 134527](https://github.com/user-attachments/assets/9fd49697-6d0b-4ff1-b920-09175aad5f1c)
-
-![Screenshot 2025-04-29 134548](https://github.com/user-attachments/assets/bdc8c98c-2e05-436d-ab98-949f39d05ecb)
-
-![Screenshot 2025-04-29 134608](https://github.com/user-attachments/assets/a06fc0fc-d0ac-4afb-8074-f8d772a926e9)
-
-![Screenshot 2025-04-29 134654](https://github.com/user-attachments/assets/6a4d6fc4-d0ac-46f4-8a57-9eab19adb122)
+### 📱 Dashboard / Expense Summary  
+![Screenshot 2025-04-29 134527](https://github.com/user-attachments/assets/c03ef709-5f9f-4c7f-a54f-771307f77842)
 
 
-✅ Prerequisites
-Android Studio Hedgehog or later
+### ➕ Add New Expense  
+![Screenshot 2025-04-29 134654](https://github.com/user-attachments/assets/5ab8b65b-4087-4093-8415-4e241ab09b80)
 
-Kotlin 1.9+
 
-Gradle 8.0+
+### 📋 Add Income View 
+![Screenshot 2025-04-29 134608](https://github.com/user-attachments/assets/93af1219-2fb4-45e3-80b0-9799d2ffc4e3)
 
-Minimum SDK 21 (Android 5.0)
 
-📦 Installation
-Clone the repository:
+### 🔁 Expense List View
+![Screenshot 2025-04-29 134548](https://github.com/user-attachments/assets/8eb442f0-a41e-4801-8d6d-c9fc0d5397ab)
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/expense-tracker-android.git
-Open in Android Studio:
 
-Go to File > Open and select the project folder.
+---
 
-Build the project:
+## 🛠️ **Getting Started**
 
-Let Gradle sync and resolve dependencies.
+### ✅ Prerequisites
 
-Run the app:
+- Android Studio **Hedgehog** or later
+- Kotlin **1.9+**
+- Gradle **8.0+**
+- Android SDK **21+**
 
-Use an emulator or a connected device to install the app.
+### 📦 Installation Steps
 
-🧱 Project Structure
-bash
-Copy
-Edit
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/expense-tracker-android.git
+   ```
+
+2. **Open in Android Studio:**
+   - `File > Open` → Select the project folder
+
+3. **Build the project:**
+   - Android Studio will automatically sync Gradle and dependencies
+
+4. **Run the app:**
+   - Use an emulator or physical Android device
+
+---
+
+## 🧱 **Project Structure**
+
+```
 app/
-├── data/                # Room DB setup, DAO, and Entity models
-├── base/                # Base ViewModel and navigation event classes
-├── ui/                  # Composable screens and UI navigation
-├── MainActivity.kt      # App entry point and navigation host
-├── ExpenseTrackerApp.kt # Application class and app theme setup
-🧪 Testing
-Run the following commands for unit and UI tests:
+├── data/                # Room database, DAO, models
+├── base/                # Base ViewModel & navigation event logic
+├── ui/                  # Composable UI and screen navigation
+├── MainActivity.kt      # App entry point with navigation host
+├── ExpenseTrackerApp.kt # App theme and application setup
+```
 
-bash
-Copy
-Edit
+---
+
+## 🧪 **Running Tests**
+
+Run unit and UI tests with:
+
+```bash
 ./gradlew test
 ./gradlew connectedAndroidTest
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+```
+
+---
+
+## 📄 **License**
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+Let me know if you’d like help resizing or designing the screenshots for visual consistency.
